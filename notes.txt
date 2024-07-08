@@ -1,0 +1,11 @@
+API security:
+
+UserID and Password based authentication
+
+How is the userID and password supplied to the API call?
+- in header
+- redirection to a auth provider
+- Does the API require authentication every time it is invoked?
+- What do we store as a part of the authentication?
+    - Do we create a user session or security principal?
+    - Do we take the IP address of the user who has sent the request?
