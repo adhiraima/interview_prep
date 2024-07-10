@@ -1,0 +1,22 @@
+services:
+  backend1:
+    build:
+      context: ./backend1
+    container_name: backend1
+    ports:
+      - "8001:8000"
+
+  backend2:
+    build:
+      context: ./backend2
+    container_name: backend2
+    ports:
+      - "8002:8000"
+
+  load-balancer:
+    build: ./nginx
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend1
+      - backend2
