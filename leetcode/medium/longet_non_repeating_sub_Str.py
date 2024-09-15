@@ -17,7 +17,6 @@ def lengthOfLongestSubstring(self, s):
                 for j in range(0, sub_str.index(s[i])):
                     # print("Removing: ", j)
                     sub_str.pop(0)
-                sub_str.pop(0)
                 # print("Sub str after pops: ", sub_str)
         sub_str.append(s[i])
         # print(sub_str)        
