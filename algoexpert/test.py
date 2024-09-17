@@ -29,4 +29,7 @@ arr12 = [0] * len(str3)
 print(arr12)
 
 arr13 = [1, 2, 3]
-print(arr13.pop())
+resp = []
+resp.append(arr13[:])
+
+print("Array: ", arr13)
