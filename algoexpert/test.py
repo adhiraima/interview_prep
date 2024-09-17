@@ -23,7 +23,10 @@ print(str3)
 print(str3.pop())
 # sp_ch = ["a", "b"]
 # if sp_ch in str3:
-#     print("Match")
+#     print("Match") 
 
 arr12 = [0] * len(str3)
 print(arr12)
+
+arr13 = [1, 2, 3]
+print(arr13.pop())
