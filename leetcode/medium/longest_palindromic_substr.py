@@ -14,8 +14,8 @@ def longestPalindrome(self, s):
     max = 0
     result = ""
     for i in range(len(s)):
-        even = expand_string(i, i)
-        odd = expand_string(i, i + 1)
+        odd = expand_string(i, i)
+        even = expand_string(i, i + 1)
 
         if len(even) > max:
             max = len(even)
