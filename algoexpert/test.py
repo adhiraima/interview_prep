@@ -33,3 +33,5 @@ resp = []
 resp.append(arr13[:])
 
 print("Array: ", arr13)
+
+print("Last: ", arr13[-1])
