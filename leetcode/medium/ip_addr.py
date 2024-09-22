@@ -36,7 +36,6 @@ class Solution(object):
             print("Octet: ", octet)
             if self.valid(octet):
                 ip_addr.append(octet)
-
                 if dots - 1 == 0: #last octet
                     self.finalize_ip(s, curr_dot, ip_addr, result)
                 else:
