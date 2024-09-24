@@ -5,9 +5,6 @@ def check_anagrams(array):
         if conv_key not in word_map:
             word_map[conv_key] = []
         word_map[conv_key].append(word)
-    # result = []
-    # for key in word_map.keys():
-    #     result.append(word_map[key])
     return [val for val in word_map.values()]
 
 def get_sorted_key(element):

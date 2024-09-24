@@ -42,6 +42,8 @@ class Solution(object):
                     self.create_ips(s, curr_dot, dots - 1, ip_addr, result)
                 ip_addr.pop()
 
+
+
 def main():
     ip_str = ["101023", "0000", "255255255255", "10101010", "25525511135"]
     for ip in ip_str:
