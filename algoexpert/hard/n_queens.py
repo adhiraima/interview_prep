@@ -65,16 +65,16 @@ def main():
             # start filling with colour 
             pen.begin_fill() 
             # call method 
-            draw() 
+            draw(n) 
             # stop filling 
             pen.end_fill() 
 
         pen.hideturtle()
     turtle.exitonclick()
-    
-def draw(): 
+
+def draw(n): 
    
-  for i in range(4): 
+  for i in range(n): 
     pen.forward(30) 
     pen.left(90) 
    
